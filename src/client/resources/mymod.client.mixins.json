@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.hazzahs.mymod.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"GameMenuScreenMixin",
+		"FisherBobberEntityMixin",
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
